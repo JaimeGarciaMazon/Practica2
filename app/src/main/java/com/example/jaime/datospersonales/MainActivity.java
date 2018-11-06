@@ -39,5 +39,5 @@ public class MainActivity extends AppCompatActivity {
         txtEstadoCivil = findViewById(R.id.txtEstadoCivil);
         SpinnerEstadoCivil = findViewById(R.id.spinnerEstadoCivil);
     }
-
+  int a = 0;
 }
