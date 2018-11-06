@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">DatosPersonales</string>
+    <string name="txtNombre">Nombre:</string>
+    <string name="txtApellidos">Apellidos:</string>
+    <string name="txtEdad">Edad:</string>
+    <string name="txtGenero">Género:</string>
+    <string name="txtEstadoCivil">Estado Civil:</string>
+
+</resources>
