@@ -1,9 +1,16 @@
 <resources>
     <string name="app_name">DatosPersonales</string>
     <string name="txtNombre">Nombre:</string>
+    <string name="editNombre">Escriba su Nombre</string>
     <string name="txtApellidos">Apellidos:</string>
+    <string name="editApellidos">Escriba aqui sus Apellidos</string>
     <string name="txtEdad">Edad:</string>
+    <string name="editEdad">Escriba su Edad</string>
     <string name="txtGenero">Género:</string>
+    <string name="buttonHombre">Hombre</string>
+    <string name="buttonMujer">Mujer</string>
     <string name="txtEstadoCivil">Estado Civil:</string>
-
+    <string name="txtHijos">Tienes Hijos</string>
+    <string name="btnGenerar">Generar</string>
+    <string name="txtInformacion"></string>
 </resources>

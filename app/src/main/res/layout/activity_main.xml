@@ -23,7 +23,7 @@
         android:layout_marginTop="-35dp"
         android:ems="10"
         android:hint="Escriba su Nombre"
-        android:inputType="textPersonName" />
+        android:inputType="textCapWords|textPersonName" />
 
     <TextView
         android:id="@+id/txtApellidos"
@@ -41,7 +41,7 @@
         android:layout_marginTop="-35dp"
         android:ems="10"
         android:hint="Escriba sus Apellidos"
-        android:inputType="textPersonName" />
+        android:inputType="textCapWords|textPersonName" />
 
     <TextView
         android:id="@+id/txtEdad"
@@ -79,7 +79,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="110dp"
-            android:text="Hombre" />
+            android:text="@string/buttonHombre" />
 
         <RadioButton
             android:id="@+id/buttonMujer"
@@ -87,7 +87,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="250dp"
             android:layout_marginTop="-30dp"
-            android:text="Mujer" />
+            android:text="@string/buttonMujer" />
     </RadioGroup>
 
     <TextView
@@ -100,7 +100,47 @@
 
     <Spinner
         android:id="@+id/spinnerEstadoCivil"
+        android:layout_width="272dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:id="@+id/txtHijos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/txtHijos" />
+
+    <Switch
+        android:id="@+id/idswitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="-25dp" />
+
+    <Button
+        android:id="@+id/btnGenerar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/btnGenerar" />
+
+    <ImageButton
+        android:id="@+id/btnEliminar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="-50dp"
+        app:srcCompat="@android:drawable/btn_dialog" />
+
+    <TextView
+        android:id="@+id/txtInformacion"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/txtInformacion" />
 
 </LinearLayout>
