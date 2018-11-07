@@ -64,8 +64,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
 
             public void onClick(View v) {
-
-
+                
                 editNombre.setText("");
                 editApellidos.setText("");
                 editEdad.setText("");
