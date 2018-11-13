@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DatosPersonales</string>
+    <string name="btnGenerar">Generieren</string>
+    <string name="txtHijos">Du hast Kinder</string>
+    <string name="txtEstadoCivil">Zivilstand:</string>
+    <string name="buttonMujer">Frau</string>
+    <string name="buttonHombre">" Mann"</string>
+    <string name="txtGenero">" Geschlecht:"</string>
+    <string name="editEdad">" Schreibe dein Alter"</string>
+    <string name="txtEdad">Alter:</string>
+    <string name="editApellidos">Schreiben Sie hier Ihre Nachnamen</string>
+    <string name="txtApellidos">Nachname:</string>
+    <string name="editNombre">Schreiben Sie Ihren Namen</string>
+    <string name="txtNombre">Name:</string>
+</resources>

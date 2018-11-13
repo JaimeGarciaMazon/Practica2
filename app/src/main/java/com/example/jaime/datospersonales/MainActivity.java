@@ -64,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
 
             public void onClick(View v) {
-                
+
                 editNombre.setText("");
                 editApellidos.setText("");
                 editEdad.setText("");
@@ -102,9 +102,6 @@ public class MainActivity extends AppCompatActivity {
         btnGenerar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
-
-
 
 
                 txtInformacion.setText(editApellidos.getText().toString() + " " + editNombre.getText().toString() + " " + editEdad.getText().toString() + " " + Genero + " " + switch1 + " " );
